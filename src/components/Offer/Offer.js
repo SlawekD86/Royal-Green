@@ -5,7 +5,7 @@ import imageService from '../../assets/imageService.jpg';
 
 const Offer = () => {
     return (
-        <section id="oferta" style={{ display: 'flex', flexDirection: 'column', backgroundColor: 'black', color: 'white', paddingBottom: '30px' }}>
+        <section id="offer" style={{ display: 'flex', flexDirection: 'column', backgroundColor: 'black', color: 'white', paddingBottom: '30px' }}>
             <div style={{ display: 'flex' }}>
                 <img
                     src={imageOferta}

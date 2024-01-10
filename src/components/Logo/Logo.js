@@ -3,7 +3,7 @@ import image1 from '../../assets/image1.jpeg';
 
 const Logo = () => {
     return (
-        <div style={{ width: '100%', height: '80vh', overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div id='logo' style={{ width: '100%', height: '100vh', overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <img
                 src={image1}
                 alt="Logo"
